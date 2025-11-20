@@ -11,3 +11,76 @@ This project can be used for:
 - Automating tasks (summaries, code, text processing)  
 - Prototyping AI features for websites or apps  
 - Educational and research purposes  
+
+## 🖥️ Create & Activate Virtual Environment
+
+### 1. Create a Virtual Environment
+```bash
+python -m venv venv
+```
+
+### 2. Activate the Environment
+
+#### **Windows (CMD or PowerShell):**
+
+```bash
+venv\Scripts\activate
+```
+
+### **macOS / Linux**
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 📦 Install Dependencies
+
+Inside the activated virtual environment, run:
+
+```bash
+pip install google-generativeai python-dotenv
+```
+
+---
+
+## 🔐 Setup Environment Variables
+
+Create a file named **.env** in the project folder:
+
+```ini
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+```
+
+**⚠️ Never upload this file to GitHub!**
+
+---
+
+## 💬 Run the Chatbot
+
+```bash
+python chatbot.py
+```
+---
+## 📂 Project Structure
+
+```bash
+.
+├── chatbot.py       # Main chatbot script
+├── .env             # Environment variables (not uploaded)
+├── venv/            # Virtual environment
+├── .gitignore       # Prevents .env & venv from being pushed
+└── README.md        # Documentation
+```
+---
+## 🛑 Security Notes
+
+1.The .env file is private — never upload it to GitHub
+
+2.Always use virtual environments to avoid dependency conflicts
+
+
+
+    
+
