@@ -12,6 +12,13 @@ This project can be used for:
 - Prototyping AI features for websites or apps  
 - Educational and research purposes  
 
+## Installation
+```bash
+# Clone the repository
+
+cd Multilingual-Translator-NLP-ImageAssistant
+
+```
 ## 🖥️ Create & Activate Virtual Environment
 
 ### 1. Create a Virtual Environment
@@ -113,3 +120,10 @@ GEMINI_API_KEY=YOUR_API_KEY_HERE
 2.Never share the API key publicly
 
 3.Use .gitignore to protect sensitive files
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Vimal-raj-2004/Multilingual_Translator.git
+cd Multilingual-Translator-NLP-ImageAssistant
