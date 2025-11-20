@@ -12,16 +12,18 @@ This project can be used for:
 - Prototyping AI features for websites or apps  
 - Educational and research purposes  
 
-## Installation
+## 🖥️ Installation
+
 ```bash
 # Clone the repository
-
-cd Multilingual-Translator-NLP-ImageAssistant
+https://github.com/Vimal-raj-2004/genai_chatbot.git
+cd Genai_chatbot
 
 ```
-## 🖥️ Create & Activate Virtual Environment
+## Create & Activate Virtual Environment
 
 ### 1. Create a Virtual Environment
+
 ```bash
 python -m venv venv
 ```
@@ -39,7 +41,6 @@ venv\Scripts\activate
 ```bash
 source venv/bin/activate
 ```
-
 ---
 
 ## 📦 Install Dependencies
