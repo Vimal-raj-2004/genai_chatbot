@@ -80,7 +80,36 @@ python chatbot.py
 
 2.Always use virtual environments to avoid dependency conflicts
 
+---
+## 🔑 How to Get Your Gemini API Key (Google AI Studio)
+Follow these simple steps to generate your API key:
 
+## 1. Visit Google AI Studio
+Go to:
+```
+👉 https://aistudio.google.com/
+```
+## 2. Sign in with your Google Account
+Use any Gmail or Google Workspace account.
 
+## 3. Generate an API Key
+1.On the left menu, click **“API Keys”**
+
+2.Click **“Create API key”**
+
+3.Select **“Create API key in new project”** (recommended)
+
+4.Your new API key will be displayed immediately
     
+## 4. Add the API Key to .env
+Create a .env file in your project folder and add:
+```bash
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+```
 
+## 5. Keep Your Key Secure
+1.Never upload .env to GitHub
+
+2.Never share the API key publicly
+
+3.Use .gitignore to protect sensitive files
