@@ -122,9 +122,3 @@ GEMINI_API_KEY=YOUR_API_KEY_HERE
 
 3.Use .gitignore to protect sensitive files
 
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Vimal-raj-2004/Multilingual_Translator.git
-cd Multilingual-Translator-NLP-ImageAssistant
