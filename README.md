@@ -14,8 +14,9 @@ This project can be used for:
 
 ## 🖥️ Installation
 
+### Clone the repository
 ```bash
-# Clone the repository
+
 https://github.com/Vimal-raj-2004/genai_chatbot.git
 cd Genai_chatbot
 
