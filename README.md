@@ -87,13 +87,7 @@ python chatbot.py
 └── README.md        # Documentation
 ```
 ---
-## 🛑 Security Notes
 
-- The .env file is private — never upload it to GitHub
-
-- Always use virtual environments to avoid dependency conflicts
-
----
 ## 🔑 How to Get Your Gemini API Key (Google AI Studio)
 Follow these simple steps to generate your API key:
 
@@ -119,10 +113,12 @@ Create a .env file in your project folder and add:
 ```bash
 GEMINI_API_KEY=YOUR_API_KEY_HERE
 ```
+---
+## 🛑 Security Notes
 
-## 5. Keep Your Key Secure
-- Never upload .env to GitHub
+- The .env file is private — never upload it to GitHub
 - Never share the API key publicly
 - Use .gitignore to protect sensitive files
+- Always use virtual environments to avoid dependency conflicts
 
 ---
